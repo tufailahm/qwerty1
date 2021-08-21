@@ -14,7 +14,7 @@ import com.revature.ems.model.Employee;
  */
 public class App {
 	public static void main(String[] args) {
-
+		System.out.println("Hi");
 		AbstractApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
 		
